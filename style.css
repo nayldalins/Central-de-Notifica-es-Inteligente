@@ -1,0 +1,88 @@
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+    background-color: #F5F6FA;
+    color: #1F2937;
+    font-family: Arial, sans-serif;
+}
+
+/* TÍTULO */
+h1 {
+    color: #2563EB;
+}
+
+/* CARDS */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* ÁREA DE NOTIFICAÇÕES */
+#areaNotificacoes {
+    background-color: #FFFFFF;
+    min-height: 100px;
+}
+
+/* TOAST */
+#meuToast {
+    max-width: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.toast-header {
+    background-color: #E0E7FF;
+}
+
+/* HISTÓRICO */
+#listaHistorico {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#listaHistorico li {
+    padding: 15px;
+}
+
+/* MODAIS */
+.modal-content {
+    border: none;
+    border-radius: 12px;
+}
+
+.modal-title {
+    color: #2563EB;
+    font-weight: bold;
+}
+
+/* RODAPÉ */
+footer {
+    border-top: 1px solid #E5E7EB;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 576px) {
+
+    main {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+}
